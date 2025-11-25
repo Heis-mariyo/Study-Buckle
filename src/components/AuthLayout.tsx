@@ -15,8 +15,13 @@ const AuthLayout = ({ children }: AuthLayoutProps) => {
       {/* Navbar Minimal */}
       <nav className="absolute top-0 left-0 w-full px-6 pt-8 pb-6 md:p-6 flex justify-between items-center z-20">
         <a href="/" className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-[#2fcf9c] rounded-lg flex items-center justify-center transform rotate-3">
-            <Zap className="text-[#0a1f33] w-5 h-5" fill="currentColor" />
+          {/* Logo Container */}
+          <div className="relative w-15 h-15 flex items-center justify-center">
+            <img 
+              src="/images/logo.png" 
+              alt="StudyBuckle Logo"
+              className="object-contain w-full h-full"
+            />
           </div>
           <span className="text-2xl font-bold text-white tracking-tight">StudyBuckle</span>
         </a>
