@@ -3,7 +3,7 @@ import React from 'react';
 import { Zap, Menu, X } from 'lucide-react';
 import { useAppStore } from '../store/useAppStore';
 import Link from 'next/link';
-import SignupPage from '../app/signup/page';
+
 
 const Navbar = () => {
   // Connect to the store
