@@ -1,6 +1,6 @@
 import React from "react";
 import { Upload, FileText, Clock, Brain } from "lucide-react";
-import { useAppStore } from "../store/useAppStore";
+import { useAppStore } from "@/store/useAppStore";
 
 const UploadView = () => {
     const { handleUpload, uploading, resetApp } = useAppStore();

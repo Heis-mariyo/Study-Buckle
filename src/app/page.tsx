@@ -2,11 +2,11 @@
 import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import { useAppStore } from '../store/useAppStore';
-import MOCK_RESULTS from '@/components/MockResults';
-import ProcessingView from '@/components/ProcessingView';
-import ResultsView from '@/components/Resultview';
-import UploadView from '@/components/Uploadview';
-import LandingPage from '@/components/LandingPage';
+import MOCK_RESULTS from '@/components/LandingPage/MockResults';
+import ProcessingView from '@/components/LandingPage/ProcessingView';
+import ResultsView from '@/components/LandingPage/Resultview';
+import UploadView from '@/components/LandingPage/Uploadview';
+import LandingPage from '@/components/LandingPage/LandingPage';
 import { 
   Upload, 
   FileText, 

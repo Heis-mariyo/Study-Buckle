@@ -1,6 +1,6 @@
 import React from "react";
 import { Clock, Share2, Zap, FileText, Brain, Sparkles, BookOpen, CheckCircle, TrendingUp } from "lucide-react";
-import { useAppStore } from "../store/useAppStore";
+import { useAppStore } from "@/store/useAppStore";
 import MOCK_RESULTS from "./MockResults";
 
 const ResultsView = () => {

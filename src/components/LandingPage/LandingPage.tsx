@@ -1,6 +1,6 @@
 import React from "react";
 import { ArrowRight, Brain, Zap, TrendingUp, FileText } from "lucide-react";
-import { useAppStore } from "../store/useAppStore";
+import { useAppStore } from "../../store/useAppStore";
  
 const LandingPage = () => {
   const { startApp } = useAppStore();
@@ -30,14 +30,14 @@ const LandingPage = () => {
                  INSTANTLY.
                </h1>
                <p className="text-xl text-gray-300 max-w-md">
-                 <span className="font-extrabold italic">Mint Your Success</span>  <br/>
+                 <span className="font-extrabold italic">Buckle Your Success</span>  <br/>
                  Turn raw and bulky notes into exam-ready questions, summaries, and flashcards in seconds.
                </p>
                <button 
                  onClick={startApp}
                  className="bg-[#2fcf9c] text-[#0a1f33] hover:bg-white px-10 py-4 rounded-full font-bold text-lg transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(47,207,156,0.4)] flex items-center gap-3"
                >
-                 START MINTING <ArrowRight size={20}/>
+                 START BUCKLING <ArrowRight size={20}/>
                </button>
             </div>
 
@@ -50,7 +50,7 @@ const LandingPage = () => {
                 </div>
                 
                 <h3 className="text-3xl font-bold text-white mb-4">Smart Exam<br/>Intelligence</h3>
-                <p className="text-gray-300 text-sm mb-6">From confusing handouts to A+ prep materials.</p>
+                <p className="text-gray-300 text-sm mb-6">From confusing handouts to A+ study materials.</p>
                 
                 <div className="bg-[#0a1f33] rounded-2xl p-4 relative overflow-hidden h-40 flex items-center justify-between">
                    <FileText className="text-gray-500 w-10 h-10" />
@@ -124,7 +124,7 @@ const LandingPage = () => {
          <div className="container mx-auto px-6 relative z-10">
             <div className="flex flex-col md:flex-row items-center gap-16">
                <div className="flex-1 space-y-8">
-                  <h2 className="text-4xl md:text-5xl font-bold text-white">Mint your exam <br/>success today.</h2>
+                  <h2 className="text-4xl md:text-5xl font-bold text-white">Buckle your exam <br/>success today.</h2>
                   <div className="space-y-6">
                      {[
                         { step: "01", title: "Upload Material", desc: "PDFs, Handouts, or Screenshots" },
@@ -146,7 +146,7 @@ const LandingPage = () => {
                </div>
                {/* Mobile UI Mockup */}
                <div className="flex-1 relative">
-                  <div className="bg-gradient-to-br from-gray-800 to-black p-4 rounded-3xl border border-gray-700 shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
+                  <div className="bg-gradient-to-br from-gray-800 to-black p-4 rounded-3xl border border-gray-700 shadow-2xl transform rotate-5 hover:rotate-0 transition-transform duration-500">
                       <div className="bg-white rounded-2xl overflow-hidden aspect-[9/16] max-w-sm mx-auto border-4 border-[#0a1f33]">
                          <div className="bg-[#0a1f33] p-6 pb-12 text-white text-center">
                             <h3 className="font-bold text-xl">Exam Week Mode</h3>
@@ -167,7 +167,7 @@ const LandingPage = () => {
       </section>
       
       <footer className="bg-[#050f19] py-12 text-center text-gray-600 text-sm border-t border-gray-800">
-        <p>© 2025 PrepMint. Study Smart. Score Higher.</p>
+        <p>© 2025 StudyBuckle. Study Smart. Score Higher.</p>
       </footer>
     </div>
   );
