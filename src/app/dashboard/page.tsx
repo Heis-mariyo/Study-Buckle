@@ -58,7 +58,7 @@ export default function Dashboard() {
                 <h2 className="text-xl font-bold text-white flex items-center gap-2">
                   <Brain className="text-[#2fcf9c]" size={24}/> Smart Prep Generator
                 </h2>
-                <p className="text-sm text-gray-400">Prep smarter, not harder.</p>
+                <p className="text-sm text-gray-400">Study smarter, not harder.</p>
               </div>
             </div>
             
