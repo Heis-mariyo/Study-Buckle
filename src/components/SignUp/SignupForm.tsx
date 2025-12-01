@@ -31,6 +31,7 @@ const SignupForm = () => {
           <input 
             type="text" 
             placeholder="Student Name"
+            required
             className="w-full bg-[#0a1f33]/50 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-[#2fcf9c] focus:ring-1 focus:ring-[#2fcf9c] transition-all"
             suppressHydrationWarning
           />
